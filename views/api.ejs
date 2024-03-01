@@ -1,0 +1,25 @@
+<%- include("pages/header.ejs") %>
+
+    <h1 class="judulapi">Berikut Merupakan Generate API yang bisa dipilih</h1>
+    <div class="apipanel"> 
+        <form class="formapi" action="/Generate" method="POST">
+            <select class="selectapi" name="api">
+                <option name="" value="" selected>Select API</option>
+                <option name="MeowFact" value="MeowFact">Meow Fact API</option>
+                <option name="Jokes" value="Jokes">Jokes API</option>
+            </select>
+            <button class="btn-contact" type="submit">Generate</button>
+        </form>
+
+        <h3>Result Generate</h3>
+        <div class="result-box">
+            <% if(locals.content) { %>
+                <p><%= content %></p>
+            <% } else { %>
+                <p>Silahkan Generate API</p>
+            <% } %>
+        </div>
+    </div>
+
+<%- include("pages/footer.ejs") %>
+    

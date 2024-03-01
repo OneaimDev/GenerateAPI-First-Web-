@@ -1,0 +1,173 @@
+*,
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 40px;
+}
+
+#nav {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #0C359E;
+}
+
+#nav a {
+    padding: 0 20px;
+    color: white;
+}
+
+#nav a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.header .kolom {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.header .kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    margin-bottom: 10px;
+}
+
+p.btn-contact {
+    margin-top: 20px;
+    padding: 10px 0px;
+}
+
+a.btn-contact {
+    background-color: #0C359E;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.btn-contact:hover {
+    background-color: palevioletred;
+}
+
+.judul {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 40px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+#me {
+    background-color: #dadada;
+    padding: 20px;
+}
+
+.me-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.apipanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.apipanel h3 {
+    margin-top: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0;
+    margin-top: 20px;
+}
+
+.judulapi {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+}
+
+.formapi {
+    display: flex;
+    flex-direction: column;
+}
+
+.selectapi {
+    width: 200px;
+    padding: 10px;
+    background-color: #0C359E;
+    color: white;
+    text-align: center;
+}
+
+.result-box {
+    background-color: #dadada;
+    width: 80%;
+    height: 200px;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+.result-box p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+}
+
+button.btn-contact {
+    margin-top: 20px;
+    padding: 10px 0px;
+    background-color: #0C359E;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
